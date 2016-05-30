@@ -1,0 +1,3 @@
+services:
+   test.programpicker:
+       class: TestBundle\Services\ProgramPicker

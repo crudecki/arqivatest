@@ -1,0 +1,9 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <p>Title: {{program.title}}</p>
+    <p>Start time: {{program.time}}</p>
+    <p>Duration: {{program.duration}} min</p>
+    <p>Description: {{program.description}}</p>
+    <a href="{{ url('bbc.previous') }}">previous</a> <a href="{{ url('bbc.next') }}">next</a>
+{% endblock %}
